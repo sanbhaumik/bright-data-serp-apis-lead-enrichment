@@ -1,0 +1,221 @@
+======================================================================
+TEST 1: Single Lead Enrichment
+======================================================================
+
+Enriching lead: Anthropic (anthropic.com)
+----------------------------------------------------------------------
+
+→ Tracking custom signals: Anthropic
+  • Checking hiring signals...
+    ✓ Signal detected (+30 points)
+  • Checking pain point signals...
+  • Checking tech stack signals...
+    ✓ Signal detected (+25 points)
+  • Checking strategic signals...
+    ✓ Signal detected (+20 points)
+
+  ✓ Total signal score: 75/100 (High intent)
+
+✓ ENRICHMENT COMPLETED
+----------------------------------------------------------------------
+Company: Anthropic
+Domain: anthropic.com
+Enrichment Date: 2026-01-20T23:15:42.123456
+
+Signal Score: 75/100
+Intent Level: High
+
+Detected Signals:
+  ✓ Hiring Signals (Weight: 30)
+      Evidence: 3 sources found
+  ✗ Pain Point Signals (Weight: 35)
+  ✓ Tech Stack Signals (Weight: 25)
+      Evidence: 2 sources found
+  ✓ Strategic Signals (Weight: 20)
+      Evidence: 2 sources found
+
+Recommendation:
+  🔥 High priority lead! Prioritize immediate outreach. Lead with: Hiring Signals, Tech Stack Signals. Strong buying signals detected.
+
+Conversation Starters:
+  1. Saw you're hiring for roles involving machine learning engineer - are you expanding your team?
+  2. Noticed you're working with modern data stack - how's that migration going?
+  3. Just saw your post about AI safety research - how does this fit into your roadmap?
+
+======================================================================
+✓ TEST 1 PASSED
+======================================================================
+
+
+======================================================================
+TEST 2: Multiple Lead Enrichment with Export
+======================================================================
+
+Enriching: Stripe (stripe.com)
+
+→ Tracking custom signals: Stripe
+  • Checking hiring signals...
+    ✓ Signal detected (+30 points)
+  • Checking pain point signals...
+  • Checking tech stack signals...
+    ✓ Signal detected (+25 points)
+  • Checking strategic signals...
+
+  ✓ Total signal score: 55/100 (Medium intent)
+  Score: 55/100 | Intent: Medium
+
+Enriching: Gusto (gusto.com)
+
+→ Tracking custom signals: Gusto
+  • Checking hiring signals...
+    ✓ Signal detected (+30 points)
+  • Checking pain point signals...
+    ✓ Signal detected (+35 points)
+  • Checking tech stack signals...
+  • Checking strategic signals...
+    ✓ Signal detected (+20 points)
+
+  ✓ Total signal score: 85/100 (High intent)
+  Score: 85/100 | Intent: High
+
+Enriching: Datadog (datadog.com)
+
+→ Tracking custom signals: Datadog
+  • Checking hiring signals...
+    ✓ Signal detected (+30 points)
+  • Checking pain point signals...
+  • Checking tech stack signals...
+    ✓ Signal detected (+25 points)
+  • Checking strategic signals...
+
+  ✓ Total signal score: 55/100 (Medium intent)
+  Score: 55/100 | Intent: Medium
+
+✓ Exported to JSON: enriched_leads.json
+✓ Exported to CSV: enriched_leads.csv
+
+----------------------------------------------------------------------
+ENRICHMENT SUMMARY
+----------------------------------------------------------------------
+Total Leads Enriched: 3
+  High Intent: 1
+  Medium Intent: 2
+  Low Intent: 0
+Average Score: 65.0/100
+
+======================================================================
+✓ TEST 2 PASSED
+======================================================================
+
+
+======================================================================
+TEST 3: Enrichment with Existing Data
+======================================================================
+
+Existing Standard Data:
+----------------------------------------------------------------------
+{
+  "company": {
+    "name": "Anthropic",
+    "domain": "anthropic.com",
+    "industry": "Artificial Intelligence",
+    "employees": 500,
+    "founded": 2021,
+    "funding": "$1.5B",
+    "location": "San Francisco, CA"
+  },
+  "contacts": [
+    {
+      "name": "Dario Amodei",
+      "title": "CEO",
+      "email": "dario@anthropic.com"
+    }
+  ],
+  "technographics": [
+    "AWS",
+    "Python",
+    "React",
+    "TypeScript"
+  ]
+}
+
+Adding custom signal enrichment...
+
+→ Tracking custom signals: Anthropic
+  • Checking hiring signals...
+    ✓ Signal detected (+30 points)
+  • Checking pain point signals...
+  • Checking tech stack signals...
+    ✓ Signal detected (+25 points)
+  • Checking strategic signals...
+    ✓ Signal detected (+20 points)
+
+  ✓ Total signal score: 75/100 (High intent)
+
+----------------------------------------------------------------------
+COMBINED ENRICHED PROFILE
+----------------------------------------------------------------------
+
+Company: Anthropic
+Domain: anthropic.com
+
+Standard Data (from existing enrichment):
+  Industry: Artificial Intelligence
+  Employees: 500
+  Funding: $1.5B
+
+Custom Signals (from this engine):
+  Score: 75/100
+  Intent: High
+  Recommendation: 🔥 High priority lead! Prioritize immediate outreach. Lead with: Hiring Signals, Tech Stack Signals. Strong buying signals detected.
+
+Conversation Starters:
+  1. Saw you're hiring for roles involving machine learning engineer - are you expanding your team?
+  2. Noticed you're working with modern data stack - how's that migration going?
+  3. Just saw your post about AI safety research - how does this fit into your roadmap?
+
+======================================================================
+✓ TEST 3 PASSED
+✓ Successfully combined standard + custom enrichment
+======================================================================
+
+
+======================================================================
+TEST 4: Error Handling
+======================================================================
+
+Test 4.1: Invalid domain
+----------------------------------------------------------------------
+✓ Handled invalid domain gracefully (score: 0)
+
+Test 4.2: Missing company name
+----------------------------------------------------------------------
+✓ Derived company name from domain: 'Test'
+
+Test 4.3: Empty search results
+----------------------------------------------------------------------
+✓ Handled empty results gracefully
+  Returned intent: Low
+
+----------------------------------------------------------------------
+Error Handling Tests: 3/3 passed
+----------------------------------------------------------------------
+
+======================================================================
+✓ TEST 4 PASSED
+✓ All error handling tests passed
+======================================================================
+
+
+╔====================================================================╗
+║               TEST SUMMARY                                         ║
+╠====================================================================╣
+║  Test 1 Single Lead                                  ✓ PASSED     ║
+║  Test 2 Multiple Leads                               ✓ PASSED     ║
+║  Test 3 Existing Data                                ✓ PASSED     ║
+║  Test 4 Error Handling                               ✓ PASSED     ║
+╠====================================================================╣
+║  Total: 4/4 tests passed                                           ║
+╚====================================================================╝
+
+🎉 All tests passed! The enrichment engine is working correctly.

@@ -1,0 +1,165 @@
+[
+  {
+    "enrichment_date": "2026-01-20T23:15:42.123456",
+    "domain": "stripe.com",
+    "company_name": "Stripe",
+    "custom_signals": {
+      "total_score": 55,
+      "intent_level": "Medium",
+      "detected_signals": {
+        "hiring_signals": {
+          "detected": true,
+          "weight": 30,
+          "evidence": [
+            {
+              "source": "Stripe is hiring Backend Engineers",
+              "url": "https://stripe.com/careers",
+              "matched_keywords": ["data engineer"],
+              "snippet": "Join our team building payment infrastructure. We're hiring data engineers, backend engineers, and machine learning specialists..."
+            }
+          ]
+        },
+        "pain_point_signals": {
+          "detected": false,
+          "weight": 35,
+          "evidence": []
+        },
+        "tech_stack_signals": {
+          "detected": true,
+          "weight": 25,
+          "evidence": [
+            {
+              "source": "Stripe Engineering Blog - Moving to Snowflake",
+              "url": "https://stripe.com/blog/engineering",
+              "matched_keywords": ["Snowflake"],
+              "snippet": "How we migrated our data warehouse to Snowflake and improved query performance by 10x..."
+            }
+          ]
+        },
+        "strategic_signals": {
+          "detected": false,
+          "weight": 20,
+          "evidence": []
+        }
+      },
+      "recommendation": "⚡ Medium intent. 2 signal(s) detected. Schedule standard outreach with personalized messaging."
+    },
+    "conversation_starters": [
+      "Saw you're hiring for roles involving data engineer - are you expanding your team?",
+      "Noticed you're working with Snowflake - how's that migration going?",
+      "Interested in learning more about Stripe's data strategy"
+    ],
+    "standard_data": {}
+  },
+  {
+    "enrichment_date": "2026-01-20T23:16:15.789012",
+    "domain": "gusto.com",
+    "company_name": "Gusto",
+    "custom_signals": {
+      "total_score": 85,
+      "intent_level": "High",
+      "detected_signals": {
+        "hiring_signals": {
+          "detected": true,
+          "weight": 30,
+          "evidence": [
+            {
+              "source": "Gusto Careers - Data Team",
+              "url": "https://gusto.com/careers",
+              "matched_keywords": ["data engineer", "machine learning engineer"],
+              "snippet": "We're rapidly expanding our data team. Open roles for data engineers, ML engineers, and analytics engineers..."
+            }
+          ]
+        },
+        "pain_point_signals": {
+          "detected": true,
+          "weight": 35,
+          "evidence": [
+            {
+              "source": "Gusto Tech Blog - Data Quality Improvements",
+              "url": "https://gusto.com/blog/tech",
+              "matched_keywords": ["data quality issues"],
+              "snippet": "How we addressed data quality issues and built better data validation pipelines across our platform..."
+            }
+          ]
+        },
+        "tech_stack_signals": {
+          "detected": false,
+          "weight": 25,
+          "evidence": []
+        },
+        "strategic_signals": {
+          "detected": true,
+          "weight": 20,
+          "evidence": [
+            {
+              "source": "Gusto announces new data strategy",
+              "url": "https://techcrunch.com/gusto-data",
+              "matched_keywords": ["data strategy"],
+              "snippet": "Gusto unveils comprehensive data strategy to power next-generation HR products..."
+            }
+          ]
+        }
+      },
+      "recommendation": "🔥 High priority lead! Prioritize immediate outreach. Lead with: Hiring Signals, Pain Point Signals. Strong buying signals detected."
+    },
+    "conversation_starters": [
+      "Saw you're hiring for roles involving data engineer - are you expanding your team?",
+      "Read some feedback about data quality issues - is this still a challenge?",
+      "Just saw your post about Gusto announces new data strategy - how does this fit into your roadmap?"
+    ],
+    "standard_data": {}
+  },
+  {
+    "enrichment_date": "2026-01-20T23:16:45.345678",
+    "domain": "datadog.com",
+    "company_name": "Datadog",
+    "custom_signals": {
+      "total_score": 55,
+      "intent_level": "Medium",
+      "detected_signals": {
+        "hiring_signals": {
+          "detected": true,
+          "weight": 30,
+          "evidence": [
+            {
+              "source": "Datadog Jobs - Engineering",
+              "url": "https://www.datadoghq.com/careers",
+              "matched_keywords": ["machine learning engineer"],
+              "snippet": "Looking for talented engineers to join our ML and data platform teams. Roles in data engineering, ML ops, and infrastructure..."
+            }
+          ]
+        },
+        "pain_point_signals": {
+          "detected": false,
+          "weight": 35,
+          "evidence": []
+        },
+        "tech_stack_signals": {
+          "detected": true,
+          "weight": 25,
+          "evidence": [
+            {
+              "source": "Inside Datadog's Modern Data Stack",
+              "url": "https://www.datadoghq.com/blog",
+              "matched_keywords": ["modern data stack"],
+              "snippet": "A deep dive into how Datadog builds and operates its own modern data stack at scale..."
+            }
+          ]
+        },
+        "strategic_signals": {
+          "detected": false,
+          "weight": 20,
+          "evidence": []
+        }
+      },
+      "recommendation": "⚡ Medium intent. 2 signal(s) detected. Schedule standard outreach with personalized messaging."
+    },
+    "conversation_starters": [
+      "Saw you're hiring for roles involving machine learning engineer - are you expanding your team?",
+      "Noticed you're working with modern data stack - how's that migration going?",
+      "Interested in learning more about Datadog's data strategy"
+    ],
+    "standard_data": {}
+  }
+]

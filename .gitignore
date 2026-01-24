@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE settings
+.vscode/
+.idea/
+
+# Data files
+*.csv
+*.json
+!*example*.json
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
