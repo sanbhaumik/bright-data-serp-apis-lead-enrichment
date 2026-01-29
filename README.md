@@ -57,7 +57,7 @@ Each lead receives a **0-100 intent score** and is classified as High, Medium, o
 ### Prerequisites
 
 - **Python 3.8+** (Check: `python --version`)
-- **Bright Data Account** with SERP API access ([Sign up here]([https://brightdata.com](https://get.brightdata.com/2039fnr15xfy))
+- **Bright Data Account** with SERP API access [Sign up here](https://get.brightdata.com/2039fnr15xfy)
 - **SERP API Credentials**: API key and zone name
 
 ### Step-by-Step Setup
