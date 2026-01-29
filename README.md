@@ -1510,8 +1510,8 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 ## Support and Resources
 
 - **Bright Data Documentation:** https://docs.brightdata.com/
-- **SERP API Guide:** https://docs.brightdata.com/serp-api
-- **Issue Tracker:** (Add your GitHub issues link)
+- **SERP API Guide:** [Signup here](https://get.brightdata.com/2039fnr15xfy)
+- **Issue Tracker:** [Issues](https://github.com/sanbhaumik/bright-data-serp-apis-lead-enrichment/issues)
 - **API Status:** Check Bright Data dashboard for service status
 
 ---
