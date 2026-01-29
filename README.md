@@ -1,6 +1,6 @@
 # Custom Lead Enrichment Engine
 
-A production-ready lead enrichment system that tracks buying signals using Bright Data's SERP API. This engine identifies high-intent leads by monitoring hiring patterns, pain points, technology adoption, and strategic initiatives across the web.
+A production-ready lead enrichment system that tracks buying signals using [Bright Data's SERP API] (https://get.brightdata.com/2039fnr15xfy). This engine identifies high-intent leads by monitoring hiring patterns, pain points, technology adoption, and strategic initiatives across the web.
 
 ---
 
@@ -57,7 +57,7 @@ Each lead receives a **0-100 intent score** and is classified as High, Medium, o
 ### Prerequisites
 
 - **Python 3.8+** (Check: `python --version`)
-- **Bright Data Account** with SERP API access ([Sign up here](https://brightdata.com))
+- **Bright Data Account** with SERP API access ([Sign up here]([https://brightdata.com](https://get.brightdata.com/2039fnr15xfy)))
 - **SERP API Credentials**: API key and zone name
 
 ### Step-by-Step Setup
@@ -109,7 +109,7 @@ DEFAULT_LANGUAGE=en
 ```
 
 **Where to find your credentials:**
-- Log in to [Bright Data Dashboard](https://brightdata.com/cp)
+- Log in to [Bright Data Dashboard]([https://brightdata.com/c](https://get.brightdata.com/2039fnr15xfy))
 - Navigate to: Proxies & Scraping Infrastructure → SERP API
 - Copy your API key and zone name
 
