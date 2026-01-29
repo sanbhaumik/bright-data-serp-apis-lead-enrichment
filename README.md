@@ -1,6 +1,6 @@
 # Custom Lead Enrichment Engine
 
-A production-ready lead enrichment system that tracks buying signals using [Bright Data's SERP API] (https://get.brightdata.com/2039fnr15xfy). This engine identifies high-intent leads by monitoring hiring patterns, pain points, technology adoption, and strategic initiatives across the web.
+A production-ready lead enrichment system that tracks buying signals using [Bright Data's SERP API](https://get.brightdata.com/2039fnr15xfy). This engine identifies high-intent leads by monitoring hiring patterns, pain points, technology adoption, and strategic initiatives across the web.
 
 ---
 
